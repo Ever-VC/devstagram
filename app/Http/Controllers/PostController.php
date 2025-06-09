@@ -8,7 +8,6 @@ class PostController extends Controller
 {
     public function index(Request $request)
     {
-        // Validación del formulario
-        dd(auth()->user());
+        return view('dashboard');
     }
 }
